@@ -6,3 +6,21 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #0b1120;
 }
+
+.dotty:after {
+  display: inline-block;
+  animation: dotty steps(1,end) 1.5s infinite;
+  content: '';
+  width: 10px;
+  text-align: start;
+  margin-left: 2px;
+  -webkit-animation: dotty steps(1,end) 1.5s infinite;
+}
+
+@keyframes dotty {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
