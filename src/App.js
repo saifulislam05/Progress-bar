@@ -25,7 +25,7 @@ function App() {
               Loading<span className="dotty text-white 1s ease-in"></span>
             </>
           ) : (
-            "Completed"
+            "Congratulations! 🎉 . Its Completed"
           )}
         </h2>
       </div>
